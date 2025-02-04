@@ -20,10 +20,10 @@ const QrGenerator = () => {
 
     return (
         <form
-            className='flex flex-col items-center justify-center w-full max-w-96 gap-16'
+            className='flex flex-col items-center justify-center w-full px-4 max-w-96 gap-16'
             onSubmit={onFormSubmit}
         >
-            <div className='w-full h-full'>
+            <div className='w-full'>
                 <Label htmlFor='qrText'>Your link/text </Label>
                 <Input
                     id='qrText'
